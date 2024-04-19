@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ebe2fd;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    width: 1000px;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+.card__left {
+    width: 300px;
+    color: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__left_subtitle {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.card__left__title {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.card__left__more {
+    font-weight: 500;
+}
+
+.card__right {
+    width: 700px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__right__subtitle {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card__right__title {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.card__right__progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.progress__bar {
+    width: 220px;
+    height: 6px;
+    background-color: #ebe2fd;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress__bar__completed {
+    width: 66%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.progress__text {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.card__button {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.background__blue {
+    background-color: #330b61;
+}
+
+.background__orange {
+    background-color: #ff9034;
+}
